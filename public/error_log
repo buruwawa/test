@@ -1,0 +1,1 @@
+[17-Jan-2022 22:18:40 Africa/Dar_es_Salaam] PHP Fatal error:  Cannot use DB as DB because the name is already in use in /home/moxacotz/public_html/zagamba/app/Http/Controllers/adminController.php on line 27

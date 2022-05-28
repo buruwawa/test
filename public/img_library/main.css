@@ -1,0 +1,27 @@
+.form-div { margin-top: 100px; border: 1px solid #e0e0e0; }
+#profileDisplay { display: block; height: 100px; width: 35%; margin: 0px auto; border-radius: 30%; }
+
+.img-placeholder {
+  width: 8%;
+  color: white;
+  height: 100%;
+  background: white;
+  opacity: .2;
+  height: 160px;
+  border-radius: 10%;
+  z-index: 1;
+  position: absolute;
+  left: 60%;
+  transform: translateX(-90%);
+  display: none;
+}
+.img-placeholder h5 {
+  margin-top: 50%;
+  color: white;
+}
+
+.img-div:hover .img-placeholder {
+  display: block;
+  cursor: pointer;
+}
+
